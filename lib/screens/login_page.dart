@@ -49,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Firebase Authentication'),
+          title: Text('MS Global'),
         ),
         body: FutureBuilder(
           future: _initializeFirebase(),
@@ -63,7 +63,7 @@ class _LoginPageState extends State<LoginPage> {
                     Padding(
                       padding: const EdgeInsets.only(bottom: 24.0),
                       child: Text(
-                        'Login',
+                        'WELCOME!',
                         style: Theme.of(context).textTheme.headline1,
                       ),
                     ),

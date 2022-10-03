@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'screens/login_page.dart';
 
 void main() {
@@ -10,11 +9,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Authentication',
+      title: 'MS Global',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
             textStyle: TextStyle(
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
         textTheme: TextTheme(
           headline1: TextStyle(
             fontSize: 46.0,
-            color: Colors.blue.shade700,
+            color: Colors.red,
             fontWeight: FontWeight.w500,
           ),
           bodyText1: TextStyle(fontSize: 18.0),
